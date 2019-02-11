@@ -10,7 +10,9 @@ class Post
     @@all 
   end
   def author_name
+    
      if author.name is author
+       author.name
     end
   end
 end 
