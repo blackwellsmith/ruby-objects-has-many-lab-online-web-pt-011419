@@ -19,5 +19,7 @@ class Author
   end
   def post_count 
     @posts.count
-  end 
+  end
+  def author_name 
+    
 end
