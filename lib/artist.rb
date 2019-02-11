@@ -15,6 +15,6 @@ class Artist
     @songs << song
   end 
   def song_count
-    @songs.artist.count
+    @songs.count
   end
 end 
