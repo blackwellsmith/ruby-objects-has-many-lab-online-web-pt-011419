@@ -12,8 +12,6 @@ class Song
   def name 
     @name 
   end 
-  def artist 
-  end 
   def artist_name 
     self.artist
   end
