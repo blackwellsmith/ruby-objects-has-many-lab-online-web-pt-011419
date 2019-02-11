@@ -6,7 +6,7 @@ class Post
     @title = title 
     @@all << self
   end  
-  def all 
+  def sel.all 
     @@all 
   end
   def author_name
