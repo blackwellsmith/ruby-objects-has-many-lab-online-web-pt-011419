@@ -12,4 +12,6 @@ class Author
     self.post
   end 
   def add_post_by_title(post)
-end
+  end
+  def post_count 
+    @posts.count
