@@ -21,5 +21,5 @@ class Author
     @posts.count
   end
   def author_name 
-    
+    self.author.name
 end
