@@ -21,6 +21,6 @@ class Author
     Post.all.length
   end
   def self.author_name 
-    post.all.name
+    Post.all.name
   end
 end
