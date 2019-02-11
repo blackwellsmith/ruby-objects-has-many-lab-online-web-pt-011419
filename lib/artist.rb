@@ -18,6 +18,6 @@ class Artist
     name.artist = self
   end 
   def self.song_count
-    @songs.length 
+    @songs.size 
   end
 end 
