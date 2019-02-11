@@ -9,4 +9,7 @@ class Post
   def all 
     @@all 
   end
+  def author_name
+    
+  end
 end 
