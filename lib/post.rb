@@ -6,4 +6,7 @@ class Post
     @title = title 
     @@all << self
   end  
+  def all 
+    @@all 
+  end
 end 
