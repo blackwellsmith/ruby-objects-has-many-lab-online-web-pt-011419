@@ -14,7 +14,7 @@ class Artist
   def add_song(song)
     @songs << song
   end 
-  def song_count
+  def slef.song_count
     @songs.count
   end
 end 
